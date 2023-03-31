@@ -150,6 +150,10 @@ img.imagem-principal{
 	width: 98%;
 	border: 2px solid #dfdfdf;
 }
+img.imagem-mural{
+	width: 40%;
+	border: 2px solid #dfdfdf;
+}
 /*formatação de cabeçalhos*/
 h3 {
 	text-transform: uppercase;
@@ -157,6 +161,22 @@ h3 {
 	font-size: 0.8em;
 	padding: 3px;
 
+}
+.mural h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+
+}
+.destaque h3{
+	background: #b10333;
+	color: #fff;
+}
+.destaque-mural h3{
+	padding-right: 30px;
+	background: #de003e;
+	color: #fff;
 }
 /*conteudo rodape*/
 #container-rodape{
@@ -174,4 +194,7 @@ h3 {
  /* position: absolute; /*pronto a charada morre aqui, isso ira deixar sua div "flutuando"*/
  /* z-index: 10px; /*garantir que ela ira fica em cima das outras coisas da pagina (exceto flash)*/
  /* margin: 50px; /* aqui voce ira controlar a posicao que a div ira aparecer.*/
+}
+#tamanho{
+	
 }
