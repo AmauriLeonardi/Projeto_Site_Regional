@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff url(../imagens/fundo.png) repeat-x;
+}
+#container{
+	width: 750px;
+	margin: 0 auto;
+	padding: 0;
+
+}
+#topo {
+	height: 150px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+	padding-top: 25px;
+
+}
+.logo {
+	width: 152px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#topo ul{
+	margin-top: 30px;
+	background: #b10333;
+	float: left;
+}
+#topo ul li{
+	float: left;
+
+}
+#topo ul a {
+	font-size: 0.9em;
+	padding: 0.5em 1.4em;
+	display: block;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) no-repeat left center;
+}
+#topo ul .primeira a{
+	background: none;
+}
+#topo ul a:hover{
+	color: #69001d;
+}
+body.home #navegacao a#home
+body.brasil #navegacao a#brasil
+body.internacional #navegacao a#internacional
+body.economia #navegacao a#economia
+body.saude #navegacao a#saude
+body.ciencias #navegacao a#ciencias
+body.fotos #navegacao a#fotos{
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
+#conteudo{
+	margin-top: 60px;
+	background: skyblue;
+}
+#primario{
+	width: 270px;
+	float: left;
+	margin: 30px 0 20px 195px;
+}
+#tres-colunas #primario{
+	width: 270px;
+	float: left;
+	margin: 20px 0 20px 195px;
+}
+#duas-colunas #primario{
+	width: 555px;
+	
+}
+#uma-colunas #primario{
+	width: 750px;
+	margin: 20px 0 20px 0;
+}
+#secundario{
+	width: 270px;
+	float: left;
+	margin: 30px 0 20px 15px;
+}
+#lateral{
+	width: 180px;
+	float: left;
+	margin: 20px 0 20px -750px;
+}
+.caixa{
+	margin: 5px 0;
+	padding: 5px 0 5px 0;
+	background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+h2{
+	font-size: 1em;
+	background: #294c71;
+	color: #fff;
+	padding: 5px;
+}
+.caixa-conteudo{
+	background: #fff;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+#lateral ul a {
+	font-size: 0.9em;
+	padding: 3px;
+	display: block;
+	line-height: 30px;
+	color: #000;
+	text-decoration: none;
+	border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+	background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+	padding-left: 20px;
+	color: #a1a1a1;
+}
+/*formatando formulario*/
+label{
+	display: block;
+	cursor: pointer;
+}
+input{
+	padding: 5px;
+	width: 125px;
+	font-size: 0.9em;
+	background-color: #fff;
+}
+input.submit{
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+/*formatação de imagens*/
+img.imagem-principal{
+	width: 98%;
+	border: 2px solid #dfdfdf;
+}
+/*formatação de cabeçalhos*/
+h3 {
+	text-transform: uppercase;
+	display: inline;
+	font-size: 0.8em;
+	padding: 3px;
+
+}
+/*conteudo rodape*/
+#container-rodape{
+	background: #294c71;
+	padding: 20px;
+}
+#rodape{
+	width: 750px;
+	margin: 0 auto;
+	color: #fff;
+	
+}
+/*pou pop para o mral comercial*/
+/*#popup{ /*significa que objetos com id="popup" tera os atributos abaixo.*/
+ /* position: absolute; /*pronto a charada morre aqui, isso ira deixar sua div "flutuando"*/
+ /* z-index: 10px; /*garantir que ela ira fica em cima das outras coisas da pagina (exceto flash)*/
+ /* margin: 50px; /* aqui voce ira controlar a posicao que a div ira aparecer.*/
+}
