@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+
 }
 
 body{
@@ -167,6 +168,7 @@ h3 {
 	display: inline;
 	font-size: 0.8em;
 	padding: 3px;
+	height: auto;
 
 }
 .destaque h3{
@@ -178,10 +180,40 @@ h3 {
 	background: #de003e;
 	color: #fff;
 }
+
+/*lista bairros*/
+#lista-bairros li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: auto;
+}
+#lista-bairros li a img{
+	float: left;
+	margin: 4px;
+}
+#lista-bairros li a{
+	text-decoration: none;
+	
+}
+#lista-bairros li a h3{
+	padding: 0;
+	font-size: 0.8em;
+	color: #3e7ab9;
+}
+#lista-bairros li a p{
+	color: #de003e;
+	font-size: 0.7em;
+}
+#lista-bairros li a:hover{
+	background: #eee;
+	cursor: pointer;
+}
 /*conteudo rodape*/
 #container-rodape{
 	background: #294c71;
 	padding: 20px;
+	margin-top: auto;
+
 }
 #rodape{
 	width: 750px;
